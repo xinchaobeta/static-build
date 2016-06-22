@@ -4,7 +4,7 @@
   "description": "a tool for building static pages",
   "main": "./dist/static-build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "bin": "./dist/static-build.js",
   "author": "",
@@ -53,5 +53,11 @@
     "postcss-pxtorem": "^3.3.1",
     "through2": "^2.0.1",
     "yargs": "^4.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinchaobeta/static-build.git"
+  },
+  "bugs": "https://github.com/xinchaobeta/static-build/issues",
+  "homepage": "https://github.com/xinchaobeta/static-build"
 }
