@@ -1,0 +1,5 @@
+{
+  "presets": ["node5", "stage-0"],
+  "plugins": ["add-module-exports", "transform-runtime"],
+  "comments": false
+}
