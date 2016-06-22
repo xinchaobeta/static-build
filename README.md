@@ -16,7 +16,9 @@ Options:
   -d, --dist  the distination directory to be built into
 
 Examples:
-  static-build -s .  use files in current directory to build
+  static-build -s . -d ../dist  bundle current directory to ../dist directory
+  static-build -s .             bundel current files in current directory to
+                                default ./dist directory
 ```
 
 

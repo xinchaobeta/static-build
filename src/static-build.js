@@ -16,7 +16,8 @@ let {src, dist, dev} = yargs
   .alias('d' , 'dist')
   .describe('dist', 'the distination directory to be built into')
   .describe('dev', 'watch the changes and start a server for developing')
-  .example('$0 -s .', 'use files in current directory to build')
+  .example('$0 -s . -d ../dist', 'bundle current directory to ../dist directory')
+  .example('$0 -s .', 'bundel current files in current directory to default ./dist directory')
   .argv
 
 if(!dist) {
